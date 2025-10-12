@@ -1,6 +1,6 @@
 # 🔴 Antipatrones - Qué NO Hacer
 
-> Documentación de errores comunes, malas prácticas y soluciones que probablemente no funcionaron
+Documentación de errores comunes, malas prácticas y soluciones que probablemente no funcionaron
 
 ## � Guía de Documentación de Antipatrones
 
@@ -25,6 +25,28 @@ Los antipatrones documentan **errores que realmente cometí** y soluciones que p
 - Problemas específicos de un proyecto único
 - Teorías sin experiencia práctica
 - Antipatrones obvios o bien conocidos sin contexto personal
+
+## 🎯 Principios para Documentar Antipatrones
+
+### 💭 Experiencia Real
+- **Solo documenta errores que realmente cometiste**
+- Incluye el contexto específico donde pasó
+- Explica las consecuencias observadas, no teóricas
+
+### 🔍 Enfoque en Síntomas
+- **Describe las señales de alerta** que viste
+- Explica cómo se manifestó el problema
+- Incluye métricas o evidencia cuando sea posible
+
+### ✅ Soluciones Probadas
+- **Recomienda solo alternativas que funcionaron**
+- Incluye ejemplos de código real
+- Explica por qué la nueva solución es mejor
+
+### 🎯 Orientado a Prevención
+- **Ayuda a detectar el problema temprano**
+- Explica cuándo es más probable que ocurra
+- Proporciona herramientas para evitarlo
 
 ### 📋 Template Estándar
 ```markdown
@@ -55,96 +77,3 @@ Los antipatrones documentan **errores que realmente cometí** y soluciones que p
 - 🕐 **Detección**: [qué tan fácil es darse cuenta]
 - 🔧 **Solución**: [qué tan difícil es arreglar]
 ```
-
-## 📚 Índice de Antipatrones
-
-### 🏗️ Arquitectura
-*Decisiones de estructura que no escalaron*
-
-### 🔒 Seguridad  
-*Prácticas que comprometieron la seguridad*
-
-### 🚀 Performance
-*Optimizaciones que empeoraron el rendimiento*
-
-### 🧪 Testing
-*Estrategias de testing que fallaron*
-
-### 📦 Dependencias
-*Gestión de librerías que causó problemas*
-- **Cuándo lo encontré**: [contexto]
-- **Consecuencias**: [qué pasó]
-- **Cómo lo solucioné**: [pasos]
-
-## 🚨 Señales de Alerta
-- [Indicador 1]
-- [Indicador 2]
-
-## 📝 Ejemplo
-```[lenguaje]
-// ❌ Antipattern
-código problemático
-
-// ✅ Solución recomendada  
-código mejorado
-```
-```
-
-## 🎯 Principios para Documentar Antipatrones
-
-### 💭 Experiencia Real
-- **Solo documenta errores que realmente cometiste**
-- Incluye el contexto específico donde pasó
-- Explica las consecuencias observadas, no teóricas
-
-### 🔍 Enfoque en Síntomas
-- **Describe las señales de alerta** que viste
-- Explica cómo se manifestó el problema
-- Incluye métricas o evidencia cuando sea posible
-
-### ✅ Soluciones Probadas
-- **Recomienda solo alternativas que funcionaron**
-- Incluye ejemplos de código real
-- Explica por qué la nueva solución es mejor
-
-### 🎯 Orientado a Prevención
-- **Ayuda a detectar el problema temprano**
-- Explica cuándo es más probable que ocurra
-- Proporciona herramientas para evitarlo
-
-## 🚨 Niveles de Severidad
-
-### ⚡ Alta
-- **Problemas que afectan producción**
-- Vulnerabilidades de seguridad
-- Performance crítico
-- Pérdida de datos
-
-### ⚡ Media  
-- **Problemas de mantenibilidad**
-- Deuda técnica significativa
-- Performance no crítico
-- UX degradada
-
-### ⚡ Baja
-- **Problemas cosméticos**
-- Convenciones no seguidas
-- Optimizaciones menores
-- Code smells
-
-## 🎯 Cómo Usar Esta Sección
-
-### Para Desarrollo Personal
-1. **Antes de implementar**: Revisa si tu enfoque está documentado aquí
-2. **Durante code review**: Usa como checklist de problemas conocidos
-3. **Al debuggear**: Busca patrones similares a problemas pasados
-
-### Para IA Assistant
-- **Antes de sugerir código**: Revisa antipatrones documentados
-- **Si detectas un patrón problemático**: Advierte y sugiere alternativa
-- **Usa experiencias pasadas**: Para validar nuevas propuestas
-
----
-
-**📅 Última actualización**: 2025-10-12  
-**🎯 Próximo**: Documentar antipatrones de gestión de dependencias y performance
