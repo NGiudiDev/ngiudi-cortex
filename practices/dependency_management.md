@@ -2,7 +2,7 @@
 
 Control total sobre las versiones de librerías para mantener seguridad, estabilidad y reproducibilidad en proyectos
 
-## 🎯 Cuándo Aplicar
+## ¿Cuándo Aplicar?
 
 - **Proyectos en producción** donde la estabilidad es crítica
 - **Aplicaciones con datos sensibles** que requieren auditorías de seguridad  
@@ -10,7 +10,7 @@ Control total sobre las versiones de librerías para mantener seguridad, estabil
 - **CI/CD pipelines** que deben ser determinísticos
 - **Proyectos a largo plazo** donde el mantenimiento es clave
 
-## ✅ Implementación
+## Implementación
 
 ### Paso 1: Eliminar Rangos Automáticos
 
