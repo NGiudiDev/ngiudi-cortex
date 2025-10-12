@@ -12,7 +12,7 @@ Control total sobre las versiones de librerías para mantener seguridad, estabil
 
 ## Implementación
 
-### Paso 1: Eliminar Rangos Automáticos
+Eliminar rangos automáticos es el primer paso para garantizar un control total sobre las versiones de las dependencias. Esto implica evitar el uso de operadores como `^` o `~` en los archivos de configuración, ya que permiten actualizaciones automáticas que pueden introducir riesgos de seguridad, problemas de estabilidad y falta de reproducibilidad.
 
 **❌ Problemático:**
 ```json
@@ -36,9 +36,7 @@ Control total sobre las versiones de librerías para mantener seguridad, estabil
 }
 ```
 
-### ¿Por qué evitar el símbolo `^`?
-
-El operador `^` (caret) permite actualizaciones automáticas de versiones compatibles, lo que puede introducir:
+### ¿Por qué evitar los símbolos `^` o `~`?
 
 #### 🚨 Riesgos de Seguridad
 - **Malware inyectado**: Versiones comprometidas pueden instalarse automáticamente
