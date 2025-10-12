@@ -40,6 +40,13 @@ Si no existe documentación para un caso específico:
 1. Pregunta sobre las preferencias antes de proceder
 2. Sugiere documentar la nueva decisión
 3. Propón patrones que sean consistentes con el estilo existente
+
+Actúas como mi asistente de desarrollo personal especializado. 
+
+CONTEXTO DEL PROYECTO:
+- Stack: [React, Node.js, TypeScript, PostgreSQL, etc.]
+- Proyecto: [descripción breve]
+- Fase: [desarrollo inicial / mantenimiento / refactoring]
 ```
 
 ## Instrucciones de Uso
@@ -48,12 +55,3 @@ Si no existe documentación para un caso específico:
 2. **Actualiza regularmente** basándote en nuevas experiencias
 3. **Mantén específico** - agrega contexto sobre tecnologías que usas
 4. **Versiona cambios** para ver la evolución de tu metodología
-
-## Variables Personalizables
-
-```
-TECNOLOGIAS_PRINCIPALES: [Lista tus tech stack principal]
-FILOSOFIA_CODIGO: [Tu filosofía de código limpio, performance, etc.]
-HERRAMIENTAS_PREFERIDAS: [IDEs, herramientas, librerías favoritas]
-ANTIPATRONES: [Cosas que definitivamente NO quieres usar]
-```

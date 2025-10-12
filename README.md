@@ -47,7 +47,3 @@ Este repositorio constituye mi **cortex de conocimiento**: un espacio centraliza
 1. **Consulta el archivo `PROMPT_SYSTEM.md`** para utilizar prompts optimizados en tus conversaciones
 2. **Referencia documentos específicos** durante las sesiones con IA para mantener contexto y coherencia
 3. **Actualiza la documentación** de forma continua cuando tomes nuevas decisiones técnicas o descubras mejores enfoques
-
----
-
-**📅 Última actualización**: 12-10-2025
