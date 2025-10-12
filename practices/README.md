@@ -1,114 +1,90 @@
-# Buenas Prácticas de Desarrollo
+# 🟢 Buenas Prácticas de Desarrollo
 
-> Principios y prácticas que sigo consistentemente en todos mis proyectos
+> Principios y estándares que aplico consistentemente en todos mis proyectos
 
-## 📝 Documentación de Código
+## � Guía de Documentación de Prácticas
 
-### Comentarios
-- **Explica el "por qué", no el "qué"**
-- Usa comentarios para contexto de negocio
-- Documenta decisiones no obvias
-- Evita comentarios que repiten el código
+### 🎯 Propósito
+Esta sección documenta **prácticas probadas** que han demostrado valor en proyectos reales. Cada práctica incluye:
+- ✅ **Cuándo aplicarla** (contexto específico)
+- 🔧 **Cómo implementarla** (pasos concretos)
+- ❌ **Errores comunes** a evitar
+- 📊 **Beneficios esperados**
 
-```javascript
-// ❌ Malo
-let price = price * 1.21; // Multiplica por 1.21
+### 📝 Cómo Documentar una Nueva Práctica
 
-// ✅ Bueno  
-let price = price * 1.21; // Aplica IVA (21%) según regulación argentina
+1. **Identifica** una práctica que uses consistentemente
+2. **Valida** que realmente aporta valor (no solo teoría)
+3. **Documenta** usando el template estándar
+4. **Vincula** desde este README
+5. **Actualiza** basado en nueva experiencia
+
+### 📋 Template Estándar
+```markdown
+# [Nombre de la Práctica]
+
+> Descripción breve de qué es y por qué es importante
+
+## 🎯 Cuándo Aplicar
+- Situación específica 1
+- Situación específica 2
+
+## ✅ Implementación
+[Explicación detallada con ejemplos]
+
+## ❌ Errores Comunes
+- Error común 1: [explicación]
+- Error común 2: [explicación]
+
+## 📊 Beneficios
+- Beneficio 1
+- Beneficio 2
+
+## 🔗 Ver También
+- [Enlaces a documentos relacionados]
 ```
 
-### Nombres Descriptivos
-- Variables y funciones deben explicar su propósito
-- Usa nombres que se lean como oraciones en inglés
-- Evita abreviaciones ambiguas
+### 📝 Código y Arquitectura
+- **Documentación de Código** - [En progreso]
+- **Principios SOLID** - [Pendiente]
+- **Testing Strategy** - [Pendiente]
 
-## 🏗️ Arquitectura de Código
+### 🚀 Performance
+- **Optimización Responsable** - [Pendiente]
+- **Bundle Optimization** - [Pendiente]
 
-### Principio de Responsabilidad Única
-- Cada función/clase tiene una sola razón para cambiar
-- Funciones pequeñas y específicas
-- Clases cohesivas
+### 📁 Organización
+- **Estructura de Proyectos** - [Pendiente]
+- **Convenciones de Naming** - [Pendiente]
 
-### Separación de Concerns
-- Lógica de negocio separada de UI
-- Datos separados de presentación
-- Configuración separada de implementación
+## 🎯 Resumen de Principios Core
 
-## 🧪 Testing
+### 📐 Consistencia
+- **Formato uniforme** en todos los proyectos
+- **Convenciones claras** de naming y estructura  
+- **Estándares documentados** y aplicados
 
-### Pirámide de Testing
-1. **Unit Tests** (70%): Funciones individuales
-2. **Integration Tests** (20%): Interacción entre módulos  
-3. **E2E Tests** (10%): Flujos completos de usuario
+### � Documentación Efectiva
+- **Explica el "por qué"**, no solo el "qué"
+- **Contexto de negocio** en comentarios críticos
+- **Decisiones justificadas** con alternativas consideradas
 
-### Principios de Testing
-- Tests como documentación viva
-- Un concepto por test
-- Nombres descriptivos que explican el comportamiento
-- Arrange, Act, Assert pattern
+### 🏗️ Arquitectura Sólida
+- **Responsabilidad única** por función/clase
+- **Separación de concerns** clara
+- **Acoplamiento bajo**, cohesión alta
 
-## 🔒 Seguridad
+### 🧪 Testing Estratégico
+- **Pirámide de testing**: 70% unit, 20% integration, 10% E2E
+- **Tests como documentación** viva del comportamiento
+- **Arrange, Act, Assert** pattern consistente
 
-### Input Validation
-- Validar TODOS los inputs del usuario
-- Sanitizar datos antes de procesarlos
-- Usar whitelist en lugar de blacklist
-
-### Secretos y Configuración
-- NUNCA secretos en código
-- Variables de entorno para configuración
-- Diferentes configs por ambiente
-
-## 📦 Gestión de Dependencias
-
-### Criterios para Elegir Librerías
-1. **Mantenimiento activo**: Commits recientes
-2. **Comunidad**: Issues resueltas, documentación
-3. **Tamaño**: Bundle size impact
-4. **Licencia**: Compatible con el proyecto
-5. **Estabilidad**: Versiones y breaking changes
-
-### Versionado
-- Semantic Versioning (SemVer)
-- Lock files siempre en repo
-- Actualizar dependencias regularmente
-
-## 🚀 Performance
-
-### Optimización Prematura
-- "Premature optimization is the root of all evil"
-- Medir antes de optimizar
-- Optimizar cuellos de botella identificados
-
-### Principios Generales
-- Lazy loading cuando sea posible
-- Cache inteligente
-- Minimizar requests HTTP
-- Optimizar assets (imágenes, bundles)
-
-## 📁 Organización de Proyectos
-
-### Estructura de Carpetas
-TODO: actualizar esta sección
-```
-src/
-  components/     # Componentes reutilizables
-  pages/         # Páginas/vistas principales  
-  services/      # Lógica de negocio
-  utils/         # Funciones utilitarias
-  types/         # Definiciones de tipos
-  constants/     # Constantes de la app
-  config/        # Configuración
-  assets/        # Recursos estáticos
-```
-
-### Convenciones de Naming
-- **Archivos**: kebab-case o camelCase consistente
-- **Componentes**: PascalCase
-- **Variables/Funciones**: camelCase
-- **Constantes**: SCREAMING_SNAKE_CASE
+### 🔒 Seguridad First
+- **Validación de inputs** obligatoria
+- **Gestión de secretos** apropiada
+- **Dependencias controladas** (sin rangos automáticos)
 
 ---
 
-*Estas prácticas evolucionan con la experiencia. Fecha última actualización: 2025-01-01*
+**📅 Última actualización**: 2025-10-12  
+**🎯 Próximo**: Documentar prácticas específicas de React/TypeScript

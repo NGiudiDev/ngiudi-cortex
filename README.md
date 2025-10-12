@@ -1,61 +1,53 @@
-# Cortex de Conocimiento - IA Development
+# Cortex de Conocimiento - Desarrollo con IA
 
-> **Sistema de documentación personal para desarrollo de software y guía de IA**
+> **Sistema de documentación personal para desarrollo de software y asistencia con IA**
 
-Este repositorio es mi **cortex de conocimiento** - un lugar centralizado donde documento todas mis decisiones técnicas, patrones de código, buenas prácticas y filosofía de desarrollo. Su objetivo principal es servir como:
+Este repositorio constituye mi **cortex de conocimiento**: un espacio centralizado donde documento todas mis decisiones técnicas, patrones de código, mejores prácticas y filosofía de desarrollo. Sus objetivos principales son:
 
-1. **Fuente de verdad** para mis estándares de desarrollo
-2. **Guía para IA** para que pueda asistirme manteniendo mi estilo y decisiones
-3. **Documentación evolutiva** de mi crecimiento como desarrollador
+1. **Fuente única de verdad** para mis estándares y metodologías de desarrollo
+2. **Guía de referencia para IA** que me permita recibir asistencia coherente con mi estilo y decisiones
+3. **Documentación evolutiva** que refleje mi crecimiento y aprendizaje como desarrollador
 
 ## 🏗️ Estructura del Repositorio
 
 ```
-📁 practices/           # Buenas prácticas generales
-📁 decisions/           # Decisiones técnicas documentadas  
-📁 patterns/            # Patrones de código y arquitectura
-📁 guides/              # Guías paso a paso
-📁 examples/            # Ejemplos prácticos
-📁 tools/               # Herramientas y configuraciones
-📁 antipatterns/        # Qué NO hacer y por qué
+📁 practices/           # Mejores prácticas y estándares de desarrollo
+📁 decisions/           # Decisiones técnicas documentadas (ADRs)
+📁 antipatterns/        # Errores comunes y malas prácticas a evitar
+📁 guides/              # Guías detalladas paso a paso
+📁 examples/            # Ejemplos prácticos de implementación
+📁 tools/               # Configuraciones y herramientas de desarrollo
 ```
 
-## 🤖 Cómo usar con IA
+## 📖 Guía de Documentación
 
-1. **Consulta el archivo `PROMPT_SYSTEM.md`** para el prompt optimizado
-2. **Referencia archivos específicos** durante conversaciones con IA
-3. **Actualiza documentación** cuando tomes nuevas decisiones técnicas
+### 🔄 Proceso de Documentación
 
-## 📋 Template para Nuevas Decisiones
+1. **Identifica** una decisión técnica, práctica importante o error significativo
+2. **Clasifica** el tipo de documento apropiado (práctica, decisión, antipatrón)
+3. **Crea** el documento utilizando la plantilla correspondiente
+4. **Vincula** el nuevo contenido desde el `index.md` ubicado en la raíz del repositorio
+5. **Actualiza** regularmente cuando adquieras nueva información o modifiques criterios
 
-Cuando documentes una nueva decisión técnica, usa este formato:
+### 📝 Estándares de Formato
 
-```markdown
-# [Nombre de la Decisión]
+#### Estructura de Archivos
+- **README.md**: Introducción y descripción del contenido de cada carpeta
+- **[nombre-descriptivo].md**: Documentos específicos con nomenclatura descriptiva
+- **Convención de nombres**: Utilizar `snake_case` (ej: `dependency_management.md`, `react_patterns.md`)
 
-## Contexto
-- ¿Qué problema resuelve?
-- ¿En qué situación aplica?
+#### Convenciones de Markdown
+- **Emojis en títulos**: Facilitan la navegación visual y identificación rápida
+- **Bloques de código**: Siempre especificar el lenguaje para resaltado de sintaxis
+- **Notas destacadas**: Usar `> **Nota:**`, `> **⚠️ Advertencia:**` para información importante
+- **Enlaces relativos**: Preferir links internos entre documentos del repositorio
 
-## Decisión
-- ¿Qué elegiste?
-- ¿Por qué esta opción?
+## 🤖 Integración con IA
 
-## Alternativas Consideradas
-- Opción A: Pros/Contras
-- Opción B: Pros/Contras
+1. **Consulta el archivo `PROMPT_SYSTEM.md`** para utilizar prompts optimizados en tus conversaciones
+2. **Referencia documentos específicos** durante las sesiones con IA para mantener contexto y coherencia
+3. **Actualiza la documentación** de forma continua cuando tomes nuevas decisiones técnicas o descubras mejores enfoques
 
-## Consecuencias
-- Beneficios esperados
-- Trade-offs aceptados
+---
 
-## Ejemplo de Uso
-```código de ejemplo```
-```
-
-## 🎯 Principios Base
-
-- **Consistencia sobre perfección**
-- **Documentar el "por qué", no solo el "qué"**
-- **Evolución gradual basada en experiencia**
-- **Simplicidad antes que complejidad**
+**📅 Última actualización**: 12-10-2025

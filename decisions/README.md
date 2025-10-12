@@ -1,72 +1,117 @@
-# Índice de Decisiones Técnicas
+# 🔵 Decisiones Técnicas (ADRs)
 
-> Documentación de todas las decisiones técnicas importantes con su justificación
+> Registro de decisiones técnicas importantes con su contexto, alternativas y consecuencias
 
-## 📋 Template para Nuevas Decisiones
+## 📖 Guía de Architecture Decision Records (ADRs)
 
+### 🎯 Propósito
+Los ADRs documentan **decisiones técnicas significativas** que afectan la arquitectura, tecnologías o procesos del proyecto. Cada decisión incluye:
+- 📝 **Contexto** que llevó a la decisión
+- ✅ **Decisión** tomada y justificación
+- 🔄 **Alternativas** consideradas y por qué se descartaron
+- 📊 **Consecuencias** esperadas (trade-offs)
+
+### � Cuándo Crear un ADR
+
+✅ **SÍ documentar**:
+- Elección de frameworks o librerías principales
+- Decisiones de arquitectura (monolito vs microservicios)
+- Estándares de código o procesos de desarrollo
+- Herramientas de CI/CD o deployment
+- Patrones de diseño adoptados
+- Decisiones de seguridad importantes
+
+❌ **NO documentar**:
+- Decisiones triviales o reversibles fácilmente
+- Implementaciones específicas de features
+- Configuraciones temporales o experimentales
+
+### 📋 Template Estándar
 ```markdown
 # [Nombre de la Decisión]
 
-**Fecha**: YYYY-MM-DD
-**Estado**: [Activa/Deprecated/En Revisión]
-**Contexto**: [Frontend/Backend/DevOps/etc.]
+**📅 Fecha**: YYYY-MM-DD  
+**🏷️ Estado**: [Activa/Deprecated/En Revisión]  
+**🎯 Contexto**: [Frontend/Backend/DevOps/etc.]
 
-## Contexto
+## 📝 Contexto
 - ¿Qué problema resuelve?
-- ¿En qué situación aplica?
+- ¿Qué constraints había?
 - ¿Qué llevó a esta decisión?
 
-## Decisión
+## ✅ Decisión
 - ¿Qué elegiste?
 - ¿Por qué esta opción?
 
-## Alternativas Consideradas
+## 🔄 Alternativas Consideradas
 1. **Opción A**: 
-   - Pros: [lista]
-   - Contras: [lista]
-   - ¿Por qué no?: [razón]
+   - ✅ Pros: [lista]
+   - ❌ Contras: [lista]
+   - ❓ Por qué no: [razón]
 
 2. **Opción B**:
-   - Pros: [lista]
-   - Contras: [lista]  
-   - ¿Por qué no?: [razón]
+   - ✅ Pros: [lista]
+   - ❌ Contras: [lista]
+   - ❓ Por qué no: [razón]
 
-## Consecuencias
-- **Beneficios esperados**: [lista]
-- **Trade-offs aceptados**: [lista]
-- **Riesgos identificados**: [lista]
+## 📊 Consecuencias
+- ✅ Beneficios esperados
+- ⚠️ Trade-offs aceptados
+- 🔄 Decisiones futuras impactadas
 
-## Ejemplo de Uso
-```[lenguaje]
-// Código de ejemplo mostrando la implementación
+## 📋 Seguimiento
+- [ ] Acción 1 a tomar
+- [ ] Métrica a monitorear
+- [ ] Fecha de revisión: [fecha]
 ```
 
-## Referencias
-- [Links a documentación]
-- [Artículos que influyeron en la decisión]
+## 📚 Índice de Decisiones
 
-## Revisión
-- **Próxima revisión**: YYYY-MM-DD
-- **Métricas a evaluar**: [cómo medir si funcionó]
-```
+### 🏗️ Arquitectura
+*Decisiones sobre estructura general del sistema*
 
-## 📁 Categorías de Decisiones
+### 🔧 Herramientas y Tecnologías  
+*Elección de frameworks, librerías y herramientas*
 
-- **Frontend**: Frameworks, librerías UI, state management
-- **Backend**: APIs, bases de datos, arquitectura de servicios  
-- **DevOps**: CI/CD, deployment, monitoreo
-- **Testing**: Estrategias de testing, herramientas
-- **Performance**: Optimizaciones, caching
-- **Security**: Autenticación, autorización, seguridad
-- **Tooling**: IDEs, linters, formatters
+### 🔒 Seguridad
+*Decisiones relacionadas con seguridad y compliance*
+
+### 🚀 DevOps y Deployment
+*Procesos de CI/CD, infraestructura y deployment*
+
+### 📊 Performance
+*Decisiones para optimización y escalabilidad*
+
+## 🎯 Principios para ADRs
+
+### 📐 Decisiones Irreversibles
+- **Enfócate en decisiones costosas de cambiar**
+- Documenta especialmente decisiones arquitecturales
+- Prioriza decisiones que afectan múltiples componentes
+
+### 📚 Contexto Completo
+- **Explica las circunstancias** que llevaron a la decisión
+- Incluye constraints técnicos y de negocio
+- Documenta el estado del arte en el momento de decidir
+
+### � Evolución Natural
+- **Estados claros**: Activa → En Revisión → Deprecated
+- Permite que decisiones evolucionen con nueva información
+- Vincula decisiones que se superponen o sustituyen
+
+### 📊 Orientado a Resultados
+- **Incluye métricas** para validar la decisión
+- Define criterios de éxito observables
+- Programa revisiones periódicas
 
 ## 🔄 Proceso de Documentación
 
 1. **Antes de decidir**: Investiga y documenta alternativas
-2. **Al decidir**: Registra la decisión con este template
+2. **Al decidir**: Registra inmediatamente con el template
 3. **Después de implementar**: Actualiza con lecciones aprendidas
-4. **Revisión periódica**: Evalúa si sigue siendo válida
+4. **Revisión periódica**: Evalúa si sigue siendo válida (cada 6 meses)
 
 ---
 
-*Las decisiones se numeran secuencialmente: ADR-001, ADR-002, etc.*
+**📅 Última actualización**: 2025-10-12  
+**🎯 Próximo**: Comenzar a documentar decisiones técnicas actuales
