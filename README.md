@@ -1,6 +1,6 @@
 # Cortex de Conocimiento - Desarrollo con IA
 
-> **Sistema de documentación personal para desarrollo de software y asistencia con IA**
+**Sistema de documentación personal para desarrollo de software y asistencia con IA**
 
 Este repositorio constituye mi **cortex de conocimiento**: un espacio centralizado donde documento todas mis decisiones técnicas, patrones de código, mejores prácticas y filosofía de desarrollo. Sus objetivos principales son:
 
