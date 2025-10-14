@@ -4,8 +4,6 @@ Framework estratégico para decidir cuándo escribir código manualmente y cuán
 
 ## ¿Cuándo Aplicar?
 
-![Cuadrante de Decisión](../../assets/images/matriz_generar_codigo.jpg)
-
 - **Desarrollo con asistencia de IA** donde necesitas optimizar tiempo y calidad
 - **Equipos mixtos** con diferentes niveles de experiencia en IA
 - **Proyectos con presión de tiempo** que requieren decisiones rápidas sobre metodología
@@ -20,6 +18,10 @@ El cuadrante se basa en **dos ejes principales**:
 
 - **Eje vertical**: Complejidad / Criticidad de la tarea
 - **Eje horizontal**: Tipo de tarea (Estándar/Repetitiva vs Novedosa/Única)
+
+<div align="center">
+  ![Cuadrante de Decisión](../../assets/images/matriz_generar_codigo.jpg)
+</div>
 
 ### 🔴 Zona de Alto Valor Humano — **ESCRIBIR**
 
