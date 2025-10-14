@@ -2,7 +2,7 @@
 
 Documentación de errores comunes, malas prácticas y soluciones que probablemente no funcionaron
 
-## � Guía de Documentación de Antipatrones
+## 📖 Guía de Documentación de Antipatrones
 
 ### 🎯 Propósito
 Los antipatrones documentan **errores que realmente cometí** y soluciones que parecían buenas ideas pero resultaron problemáticas. Cada antipatrón incluye:
@@ -66,7 +66,7 @@ Los antipatrones documentan **errores que realmente cometí** y soluciones que p
 ## ✅ Qué hacer en su lugar
 [Alternativa recomendada con ejemplo]
 
-## � Experiencia Personal
+## 💭 Experiencia Personal
 - **Cuándo me pasó**: [contexto del proyecto]
 - **Qué síntomas observé**: [cómo se manifestó el problema]
 - **Cómo lo resolví**: [pasos específicos tomados]

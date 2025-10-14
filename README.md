@@ -11,13 +11,13 @@ Este repositorio constituye mi **cortex de conocimiento**: un espacio centraliza
 ## 🏗️ Estructura del Repositorio
 
 ```
-📁 practices/           # Mejores prácticas y estándares de desarrollo
-📁 decisions/           # Decisiones técnicas documentadas (ADRs)
-📁 antipatterns/        # Errores comunes y malas prácticas a evitar
-📁 guides/              # Guías detalladas paso a paso
-📁 examples/            # Ejemplos prácticos de implementación
-📁 tools/               # Configuraciones y herramientas de desarrollo
-📁 private/             # 🔒 Documentación personal (NO para IA)
+📁 src/
+  📁 buenas_practicas/   # Mejores prácticas y estándares de desarrollo
+  📁 decisiones_tecnicas/ # Decisiones técnicas documentadas (ADRs)
+  📁 anti_patrones/      # Errores comunes y malas prácticas a evitar
+  📁 prompts/            # Prompts y plantillas para IA
+  📁 personal/           # 🔒 Documentación personal (NO para IA)
+📁 assets/               # Recursos gráficos y documentos de apoyo
 ```
 
 ## 📖 Guía de Documentación
@@ -45,6 +45,6 @@ Este repositorio constituye mi **cortex de conocimiento**: un espacio centraliza
 
 ## 🤖 Integración con IA
 
-1. **Consulta el archivo `PROMPT_SYSTEM.md`** para utilizar prompts optimizados en tus conversaciones
+1. **Consulta el archivo `src/prompts/prompt_introductorio.md`** para utilizar prompts optimizados en tus conversaciones
 2. **Referencia documentos específicos** durante las sesiones con IA para mantener contexto y coherencia
 3. **Actualiza la documentación** de forma continua cuando tomes nuevas decisiones técnicas o descubras mejores enfoques

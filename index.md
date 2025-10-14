@@ -7,4 +7,4 @@
 - **[Estrategia de Generación de Código con IA](./src/personal/cuando_escribir_y_generar_codigo.md)** - Cuadrante de decisión para escribir vs generar código
 
 ### Prompts
-- **[Propmt Incial](./src/prompts/prompt_introductorio.md)** - Introducción y configuración inicial para comenzar a trabajar con prompts.
+- **[Prompt Inicial](./src/prompts/prompt_introductorio.md)** - Introducción y configuración inicial para comenzar a trabajar con prompts.

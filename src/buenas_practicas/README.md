@@ -2,7 +2,7 @@
 
 Principios y estándares que aplico consistentemente en todos mis proyectos
 
-## � Guía de Documentación de Prácticas
+## 📖 Guía de Documentación de Prácticas
 
 ### 🎯 Propósito
 
