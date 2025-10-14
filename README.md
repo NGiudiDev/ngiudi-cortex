@@ -17,6 +17,7 @@ Este repositorio constituye mi **cortex de conocimiento**: un espacio centraliza
 📁 guides/              # Guías detalladas paso a paso
 📁 examples/            # Ejemplos prácticos de implementación
 📁 tools/               # Configuraciones y herramientas de desarrollo
+📁 private/             # 🔒 Documentación personal (NO para IA)
 ```
 
 ## 📖 Guía de Documentación

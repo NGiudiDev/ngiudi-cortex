@@ -1,0 +1,22 @@
+# Archivo de exclusión para IA
+# Carpetas y archivos que NO debe revisar el agente de IA
+
+# Documentación personal
+private/
+personal/
+notes/
+
+# Archivos específicos
+**/personal-*.md
+**/draft_*.md
+**/private_*.md
+
+# Notas temporales
+scratch.md
+temp-notes.md
+brainstorm.md
+
+# Información sensible
+credentials/
+secrets/
+config-local/
