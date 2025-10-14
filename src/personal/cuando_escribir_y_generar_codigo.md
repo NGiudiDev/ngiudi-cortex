@@ -19,9 +19,7 @@ El cuadrante se basa en **dos ejes principales**:
 - **Eje vertical**: Complejidad / Criticidad de la tarea
 - **Eje horizontal**: Tipo de tarea (Estándar/Repetitiva vs Novedosa/Única)
 
-<div align="center">
-  ![Cuadrante de Decisión](../../assets/images/matriz_generar_codigo.jpg)
-</div>
+![Cuadrante de Decisión](../../assets/images/matriz_generar_codigo.jpg)
 
 ### 🔴 Zona de Alto Valor Humano — **ESCRIBIR**
 
