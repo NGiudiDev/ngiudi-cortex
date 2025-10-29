@@ -2,6 +2,8 @@
 
 ## 🛠️ Buenas Prácticas
 - **[Gestión de Dependencias](./src/buenas_practicas/gestion_de_dependencias.md)** - Control de versiones y seguridad en librerías
+- **[Principios SOLID](./src/buenas_practicas/principios_solid.md)** - Los 5 principios fundamentales para código orientado a objetos mantenible
+- **[Principios DRY, KISS y YAGNI](./src/buenas_practicas/principios_dry_kiss_yagni.md)** - Principios fundamentales para código simple, mantenible y eficiente
 
 ## 🚫 Anti-patrones
 - **[Anti-patrones](./src/anti_patrones/README.md)** - Patrones a evitar en el desarrollo de software
